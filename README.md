@@ -100,8 +100,8 @@ Configure the .env in <code>/headless-strapi</code>
 <hr>
 
 ## Technologies :
-NuxtJs 3
-Strapi
+-NuxtJs 3
+-Strapi
 
 <hr>
 
