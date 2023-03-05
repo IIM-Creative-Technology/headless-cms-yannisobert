@@ -31,7 +31,7 @@ Configure the .env in <code>/headless-strapi</code>
   <tr>
     <th>Name</th>
     <th>Type</th>
-    <th>Necessary</th>
+    <th>Required</th>
   </tr>
   <tr>
     <td>text</td>
@@ -76,7 +76,7 @@ Configure the .env in <code>/headless-strapi</code>
   <tr>
     <th>Name</th>
     <th>Type</th>
-    <th>Necessary</th>
+    <th>Required</th>
   </tr>
   <tr>
     <td>technos</td>
