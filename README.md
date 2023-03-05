@@ -31,34 +31,42 @@ Configure the .env in <code>/headless-strapi</code>
   <tr>
     <th>Name</th>
     <th>Type</th>
+    <th>Necessary</th>
   </tr>
   <tr>
     <td>text</td>
     <td>Text</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>image</td>
     <td>Media</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>slug</td>
     <td>UID</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>description</td>
     <td>Rich text</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>link</td>
     <td>Text</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>types</td>
     <td>Enumeration</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>technos</td>
     <td>Relation with Techno</td>
+    <td>Yes</td>
   </tr>
 </table>
 
@@ -68,18 +76,22 @@ Configure the .env in <code>/headless-strapi</code>
   <tr>
     <th>Name</th>
     <th>Type</th>
+    <th>Necessary</th>
   </tr>
   <tr>
     <td>technos</td>
     <td>Enumeration</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>projects</td>
     <td>Relation with Project</td>
+    <td>Yes</td>
   </tr>
   <tr>
     <td>logo</td>
     <td>Media</td>
+    <td>Yes</td>
   </tr>
 </table>
 
