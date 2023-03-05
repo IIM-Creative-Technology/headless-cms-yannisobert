@@ -74,7 +74,7 @@
     <div class="grid-container">
     <div v-for="(projectIIM, index) in projectsIIM.data" :key="index" class="grid-item">
       <NuxtLink :to="'/projects/' + projectIIM.slug">
-        <img class="project-image"  :src="projectIIM.image.url"/>
+        <img class="image-project-presentation"  :src="projectIIM.image.url"/>
         {{ projectIIM.slug }}
       </NuxtLink>
     </div>
